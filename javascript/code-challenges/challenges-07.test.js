@@ -29,28 +29,12 @@ let starWarsPeople = [
 
 const sortStarWarsCharacters = (starWarsArr) => {
 
-// let x ;
-
-// x=starWarsArr[1]
-// starWarsArr[1] = starWarsArr[0] ;
-// starWarsArr[0] = x
-// console.log(starWarsArr[0]);
-console.log(starWarsArr[0]);
-
-  let x = 0;
-  for (let i = 0; i < starWarsArr.length; i++) {
-    if (starWarsArr[i].height > starWarsArr[i+1].height){
-      console.log('of');
-    }
-    else {
-      x=starWarsArr[1];
-      starWarsArr[1] = starWarsArr[0] ;
-      starWarsArr[0] = x ;
-      console.log(starWarsArr[0]);
-    }
+  let x = starWarsArr.sort(sortt);
+  function sortt(a,b){
+    return b.height - a.height ;
   }
-  console.log(starWarsArr);
-  return starWarsArr ;
+ 
+  return x ;
 };
 
 /* ------------------------------------------------------------------------------------------------
