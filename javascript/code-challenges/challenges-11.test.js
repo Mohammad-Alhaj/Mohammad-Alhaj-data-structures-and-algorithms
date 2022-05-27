@@ -263,11 +263,11 @@ describe('Testing challenge 4', () => {
     expect(divisibleByFiveTwoToThePower([[10, 20, 5, 4], [5, 6, 7, 9], [1, 10, 3]])).toStrictEqual([[1024, 1048576, 32], [32], [1024]]);
   });
 
-  test.skip('It should return an empty array if none of the numbers are divisible by five', () => {
+  test('It should return an empty array if none of the numbers are divisible by five', () => {
     expect(divisibleByFiveTwoToThePower([[1, 2, 3], [5, 10, 15]])).toStrictEqual([[], [32, 1024, 32768]]);
   });
 
-  test.skip('It should return an empty array if the values are not numbers', () => {
+  test('It should return an empty array if the values are not numbers', () => {
     expect(divisibleByFiveTwoToThePower([['one', 'two', 'five'], ['5', '10', '15'], [5]])).toStrictEqual([[], [], [32]]);
   });
 });
