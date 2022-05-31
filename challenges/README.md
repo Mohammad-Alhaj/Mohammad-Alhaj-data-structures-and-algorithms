@@ -1,7 +1,16 @@
-# Reverse an Array
-Takes an array as an argument and returns an array elements in reverse 
-## Whiteboard Process
-[ReverseArray](./array-reverse.png)
-
-## Approach & Efficiency-
-<!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
+|weeks |day1 |day2|day3|
+|:-:|---|---|---|
+|week1| [Reverse an Array](./Reverse-an-Array.md)  | [array-reverse](./array-insert-shift.md)  |   |
+|week2|  |   |   |
+|week3|   |   |   |
+|week4|   |   |   |
+|week5|  |   |   |
+|week6|   |   |   |
+|week7|   |   |   |
+|week8|   |   |   |
+|week9|   |   |   |
+|week10|   |   |   |
+|week11|   |   |   |
+|week12|  |   |   |
+|week13|   |   |   |
+|week14|  |   |   |
