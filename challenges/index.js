@@ -1,5 +1,5 @@
 "use strict";
-const linkedList = require("./Linked List/Implementation-linked-list/linkenode");
+const linkedList = require('./linked-list-insertions/implementation/linke.node');
 
 const element = new linkedList();
 //console.log(element);
@@ -21,6 +21,21 @@ const element = new linkedList();
   //element.includes(1)
 //element.toString()
 //element. printList()
+element.append(1)
+element.append(3)
+ element.append(7)
+
+
+
+
+
+ 
+ element.insertAfter(3,50)
+
+//  element.insertBefore(1,50)
+
+
+console.log(element);
 
 
 
