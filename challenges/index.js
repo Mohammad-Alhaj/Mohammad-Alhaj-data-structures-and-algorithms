@@ -1,5 +1,5 @@
 "use strict";
-const linkedList = require('./linked-list-insertions/implementation/linke.node');
+const linkedList = require('./linked-list-kth/implemetation/link');
 
 const element = new linkedList();
 //console.log(element);
@@ -24,13 +24,14 @@ const element = new linkedList();
 element.append(1)
 element.append(3)
  element.append(7)
-
-
-
-
-
+ element.append(12)
+ element.append(15)
  
- element.insertAfter(3,50)
+ element.middle()
+
+ element.reverse()
+ element.kthFromEnd(23)
+//  element.insertAfter(3,50)
 
 //  element.insertBefore(1,50)
 

@@ -2,7 +2,7 @@
 |:-:|---|---|---|
 |week1| [Reverse an Array](./Reverse-an-Array.md)  | [array-reverse](./array-insert-shift.md)  |  [Linked List](./Linked%20List.md) |
 |week2| [Binary search](./array-binary-search/README.md) | [challenge with partner]()  | [mockInterview]()  |
-|week3|[linked-list-insertions](./linked-list-insertions/readme.md) |   |   |
+|week3|[linked-list-insertions](./linked-list-insertions/readme.md) | [linked-list-kth](./linked-list-kth/implemetation/readme.md)  |   |
 |week4|   |   |   |
 |week5|  |   |   |
 |week6|   |   |   |
