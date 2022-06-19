@@ -38,7 +38,7 @@ element.append(9)
 //  element.kthFromEnd(23) 
 //  element.insertAfter(3,50)
 
-//  element.insertBefore(1,50)
+//  element.insertBefore(1,50 )
 
 
 
