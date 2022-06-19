@@ -20,12 +20,7 @@ class linkedList {
     
   }
   //........print list............
-  printList(){
-      while (this.head) {
-          console.log(this.head.value);
-          this.head = this.head.next
-      }
-  }
+  
 
   //.........boolen method............
   includes(value){
