@@ -1,0 +1,18 @@
+{
+  "name": "challenges",
+  "version": "1.0.0",
+  "description": "|weeks |day1 |day2|day3| |:-:|---|---|---| |week1| [Reverse an Array](./Reverse-an-Array.md)  | [array-reverse](./array-insert-shift.md)  |   | |week2|  |   |   | |week3|   |   |   | |week4|   |   |   | |week5|  |   |   | |week6|   |   |   | |week7|   |   |   | |week8|   |   |   | |week9|   |   |   | |week10|   |   |   | |week11|   |   |   | |week12|  |   |   | |week13|   |   |   | |week14|  |   |   |",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jest": "^28.1.0",
+    "supertest": "^6.2.3"
+  }
+}
