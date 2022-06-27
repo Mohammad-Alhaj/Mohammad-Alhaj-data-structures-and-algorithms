@@ -1,17 +1,16 @@
 "use strict";
-const pseudoQueue = require('./StackQueue/CH-2/stack/stack');
- const ele = new pseudoQueue();
+const AnimalShelter = require('./StackQueue/CH-3/stack and queue shelter/queue');
+ const ele = new AnimalShelter();
 
 
 
 
-  ele.enqueue(10)
- ele.enqueue(20)
- ele.enqueue(50)
- ele.enqueue(70)
+  ele.enqueue('dog')
+  ele.enqueue('cat')
+  ele.enqueue('cat')
 
-
-//  ele.enqueue(60)
+  ele.dequeue('dog')
+ 
 
 //   ele2. add(ele)
  console.log(ele);
