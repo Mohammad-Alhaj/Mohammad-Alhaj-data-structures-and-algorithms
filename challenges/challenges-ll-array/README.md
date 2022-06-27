@@ -4,7 +4,7 @@
 |week2| [Binary search](./array-binary-search/README.md) | [challenge with partner]()  | [mockInterview]()  |
 |week3|[linked-list-insertions](./linked-list-insertions/readme.md) | [linked-list-kth](./linked-list-kth/implemetation/readme.md)  |[linked-list-zip](./linked-list-zip//readme.md)   |
 |week4|[mock interview](./images//code%20challenge%20linked%20list.png) |[Stack & queue](./StackQueue/CH-1/readme.md)   |[Implement a Queue using two Stacks.](./StackQueue//CH-2//stack/readme.md)   |
-|week5|  |   |   |
+|week5|[stack and queue shelter](./StackQueue/CH-3/stack%20and%20queue%20shelter/readme.md)  |   |   |
 |week6|   |   |   |
 |week7|   |   |   |
 |week8|   |   |   |
