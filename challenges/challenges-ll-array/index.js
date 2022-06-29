@@ -1,16 +1,12 @@
 "use strict";
-const AnimalShelter = require('./StackQueue/CH-3/stack and queue shelter/queue');
- const ele = new AnimalShelter();
+const Stack = require('./StackQueue/CH-4/stack');
+ const ele = new Stack();
 
 
 
 
-  ele.enqueue('dog')
-  ele.enqueue('cat')
-  ele.enqueue('cat')
+  ele.validateBrackets('(mohammad{}[]{})')
 
-  ele.dequeue('dog')
- 
 
 //   ele2. add(ele)
  console.log(ele);
