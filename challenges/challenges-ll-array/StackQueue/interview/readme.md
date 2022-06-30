@@ -1,0 +1,3 @@
+# Whiteboard
+
+![](../../images/getMax.png)
