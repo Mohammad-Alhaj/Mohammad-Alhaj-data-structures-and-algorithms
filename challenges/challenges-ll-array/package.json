@@ -4,7 +4,7 @@
   "description": "|weeks |day1 |day2|day3| |:-:|---|---|---| |week1| [Reverse an Array](./Reverse-an-Array.md)  | [array-reverse](./array-insert-shift.md)  |   | |week2|  |   |   | |week3|   |   |   | |week4|   |   |   | |week5|  |   |   | |week6|   |   |   | |week7|   |   |   | |week8|   |   |   | |week9|   |   |   | |week10|   |   |   | |week11|   |   |   | |week12|  |   |   | |week13|   |   |   | |week14|  |   |   |",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose --coverage"
   },
   "keywords": [],
   "author": "",
