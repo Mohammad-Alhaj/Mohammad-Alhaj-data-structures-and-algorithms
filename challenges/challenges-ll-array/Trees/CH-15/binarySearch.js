@@ -38,52 +38,25 @@ class BinarySearch {
   }
 
   Contains(value) {
-    if (value == this.root.value) {
-      console.log(this.root.value);
-      return this.root.value;
+    if(this.root == null){
+        console.log(null);
+        return null;
     }
-
     let temp = this.root;
-    while (1) {
-      if (value > this.root.right.value) {
-        if (value == temp.right.value) {
-          console.log(temp.right.value);
-          return temp.right.value;
-        } else {
-          if (temp.right.right.value == value) {
-            console.log(value);
-
-            return value;
-          } else {
-            if (temp.right.left.value == value) {
-              console.log(value);
-
-              return value;
-            }
-          }
+    while(temp){
+        if(value < temp.value){
+            temp = temp.left;
         }
-        temp = temp.right;
-      } else {
-        if (value == temp.left.value) {
-          console.log(value);
+        else if(value > temp.value){
+            temp = temp.right;
 
-          return temp.left.value;
-        } else {
-          if (temp.left.left.value == value) {
-            console.log(value);
-
-            return value;
-          } else {
-            if (temp.left.left.value == value) {
-              console.log(value);
-
-              return value;
-            }
-          }
+        }else{
+            console.log(true);
+            return true
         }
-        temp = temp.left;
-      }
     }
+      console.log(false);
+      return false
   }
 }
 

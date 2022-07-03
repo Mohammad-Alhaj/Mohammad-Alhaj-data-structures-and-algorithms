@@ -46,7 +46,7 @@ ele.insert(48)
 ele.insert(65)
 ele.insert(61)
 
-ele.Contains(37)
+ele.Contains(49)
 console.log('eleee',ele);
 
 

@@ -14,6 +14,7 @@ class BinaryTree{
         }
         traverse(this.root)
         console.log(result);
+        return result
     }
     inOrder(){
         let result = [];
@@ -25,8 +26,9 @@ class BinaryTree{
         }
         traverse(this.root)
         console.log(result);
+        return result
     }
-    pastOrder(){
+    postOrder(){
         let result = [];
         function traverse(node){
             if(node.left) traverse(node.left)
@@ -36,6 +38,7 @@ class BinaryTree{
         }
         traverse(this.root)
         console.log(result);
+        return result
     }
 }
 module.exports = BinaryTree;
