@@ -4,8 +4,7 @@ const Node = require('./node')
 const BinaryTree = require('./binaryTree')
 
 
-
-
+// tree 1
 
 let one = new Node(1);
 let two = new Node(2);
@@ -27,30 +26,10 @@ three.left = four;
 three.right = five;
 
 let tree = new BinaryTree(one);
+let tree2 = new BinaryTree(two);
+
+// tree 2
 
 
-tree.preOrder();
-// const BinarySearch = require('./binarySearch');
-
-// const ele = new BinarySearch();
-
-// ele.insert(10)
-// ele.insert(5)
-// ele.insert(11)
-// ele.insert(33)
-// ele.insert(37)
-// ele.insert(39)
-// ele.insert(78)
-// ele.insert(14)
-// ele.insert(48)
-// ele.insert(65)
-// ele.insert(61)
-
-// ele.Contains(49)
-// console.log('eleee',ele);
-
-
-/*[
-    1, 2, 6, 7, 8,
-    9, 3, 4, 5
-  ]*/
+ console.log(tree.root)
+tree.compareFiles(tree.root,tree2.root);

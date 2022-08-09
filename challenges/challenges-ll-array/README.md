@@ -8,9 +8,9 @@
 |week6| [Trees](./Trees/CH-15/readme.md)  |[MaxTree](./Trees/CH-16/readme.md)   | [Breadth-first Traversal.](./Trees/CH-17/readme.md)  |
 |week7|[Eid al-Adha]()   |[Eid al-Adha]()   |[fizzBuzzTree](./Trees/CH-18/readme.md)   |
 |week8|   |   |   |
-|week9|   |   |   |
-|week10|   |   |   |
-|week11|   |   |   |
+|week9| [Project]()  |[Project]()   |[Project]()   |
+|week10|[Project]()   | [Project]()  | [Project]()  |
+|week11| [no lecture]()  |[Insertion Sort](./Insertion%20Sort/Insertion%20Sort.md)  |   |
 |week12|  |   |   |
 |week13|   |   |   |
 |week14|  |   |   |
