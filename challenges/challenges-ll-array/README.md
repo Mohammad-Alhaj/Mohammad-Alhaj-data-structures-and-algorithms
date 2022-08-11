@@ -10,7 +10,7 @@
 |week8|   |   |   |
 |week9| [Project]()  |[Project]()   |[Project]()   |
 |week10|[Project]()   | [Project]()  | [Project]()  |
-|week11| [no lecture]()  |[Insertion Sort](./Insertion%20Sort/Insertion%20Sort.md)  |   |
+|week11| [no lecture]()  |[Insertion Sort](./Insertion%20Sort/Insertion%20Sort.md)  |[Merge Sort](./Merge%20Sort/Merge%20Sort.md)   |
 |week12|  |   |   |
 |week13|   |   |   |
 |week14|  |   |   |
