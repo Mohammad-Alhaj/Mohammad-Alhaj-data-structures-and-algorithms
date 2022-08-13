@@ -1,0 +1,1 @@
+![](../images/merge%20sort.png)
