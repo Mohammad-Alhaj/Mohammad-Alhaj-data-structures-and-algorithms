@@ -1,4 +1,4 @@
-![](../images/Merge%20sort%202.png)
+![](../images/merge%20sort2.png)
 
 # Test
 ![](test%20sort%20merge.png)
