@@ -25,9 +25,5 @@ function partition(arr, left, right) {
     return arr
   }
   
-//   let arr = [-2, 4, 6, 3, 7, 2];
-//   quickSort(arr, 0, arr.length - 1);
-//   console.log(arr);
 
-// quickSort([9,8,7,6,5])
-  module.exports = quickSorthttps://github.com/Mohammad-Alhaj/resty/tree/effect-hook
+  module.exports = quickSort
