@@ -11,6 +11,6 @@
 |week9| [Project]()  |[Project]()   |[Project]()   |
 |week10|[Project]()   | [Project]()  | [Project]()  |
 |week11| [no lecture]()  |[Insertion Sort](./Insertion%20Sort/Insertion%20Sort.md)  |[Merge Sort](./Merge%20Sort/Merge%20Sort.md)   |
-|week12|[quick sort](./quick%20sort/quick%20sort.md)  |   |   |
+|week12|[quick sort](./quick%20sort/quick%20sort.md)  |[mock interview]()   |[hash map](./hashtable/hashtable.md)   |
 |week13|   |   |   |
 |week14|  |   |   |
