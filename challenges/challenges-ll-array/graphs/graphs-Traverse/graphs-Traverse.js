@@ -1,72 +1,43 @@
-class Vertex { 
-    constructor(value) {
-        this.value = value;
-    }
-}
-
-class Edge {
-    constructor(vertex, weight = 0) {
-        this.vertex = vertex;
-        this.weight = weight;
-    }
-}
-
+'use strict';
 
 class Graph {
-    constructor() {
-        this.adjacencyList = new Map();
-    }
+  constructor() {
+    this.adjacencyList = {};
+  }
 
-    addVertex(vertex) {
-        this.adjacencyList.set(vertex, []);
-    }
-    addDirectedEdge(start, end, weight) {
-        if (!this.adjacencyList.has(start) || !this.adjacencyList.has(end)) {
-            console.log('VERTEX DOES NOT EXIST');
-            return;
+  addVertex(vertex) {
+    if (!this.adjacencyList[vertex]) this.adjacencyList[vertex] = [];
+  }
+
+  addEdge(v1, v2) {
+    if (!this.adjacencyList[v1]) this.adjacencyList[v1] = [];
+    if (!this.adjacencyList[v2]) this.adjacencyList[v2] = [];
+    this.adjacencyList[v1].push(v2);
+    this.adjacencyList[v2].push(v1);
+  }
+
+  breadthFirst(start) {
+    const queue = [start];
+    const result = [];
+    const visited = {};
+    let currentVertex;
+    visited[start] = true;
+
+    while (queue.length) {
+      currentVertex = queue.shift();
+      console.log('current Vertex :>> ', currentVertex);
+      result.push(currentVertex);
+
+      this.adjacencyList[currentVertex].forEach(neighbor => {
+        if (!visited[neighbor]) {
+          visited[neighbor] = true;
+          queue.push(neighbor);
         }
-        else {
-            const adjacentVertex = this.adjacencyList.get(start);
-            adjacentVertex.push(new Edge(end, weight));
-
-            // let edge = new Edge(end, weight);
-            // adjacentVertex.push(edge);
-        }
-
+      })
     }
-
-   
-
+    return result;
+  }
 }
 
-const myGraph = new Graph();
 
-const zero = new Vertex(0);
-const one = new Vertex(1);
-const two = new Vertex(2);
-const three = new Vertex(3);
-const four = new Vertex(4);
-const five = new Vertex(5);
-// const seven = new Vertex(5);
-
-
-myGraph.addVertex(zero)
-myGraph.addVertex(one)
-myGraph.addVertex(two)
-myGraph.addVertex(three)
-myGraph.addVertex(four)
-myGraph.addVertex(five)
-
-myGraph.addDirectedEdge(zero, two);
-myGraph.addDirectedEdge(two, four);
-myGraph.addDirectedEdge(two, three);
-myGraph.addDirectedEdge(four, five);
-myGraph.addDirectedEdge(zero, zero);
-
-// myGraph.addDirectedEdge(seven, two);
-
-
-
-for (const [k, v] of myGraph.adjacencyList.entries()) {
-    console.log('k = ', k, 'v = ', v);
-}
+module.exports = Graph;
