@@ -13,4 +13,5 @@
 |week11| [no lecture]()  |[Insertion Sort](./Insertion%20Sort/Insertion%20Sort.md)  |[Merge Sort](./Merge%20Sort/Merge%20Sort.md)   |
 |week12|[quick sort](./quick%20sort/quick%20sort.md)  |[mock interview]()   |[hash map](./hashtable/hashtable.md)   |
 |week13|[Linkedin]() |[repeated-word](./hashmap-repeated-word/repeated_word.md)   |[tree-intersection](./CH-32/tree-intersection.md)   |
-|week14|  |   |   |
+|week14|[hashmap-left-join](./hashmap-left-join/hashmap.md)  |   |   |
+|week15|[graphs-Traverse](./graphs/graphs-Traverse/readme.md)  |   |   |
